@@ -1,9 +1,9 @@
 import math
 InputNum = []
-NumVar = int(input("Number of variables:"))
+NumVar = int(input("Number of probabilities:"))
 
 for i in range(0,NumVar):
-    print("Enter value for (",i,"):")
+    print("Enter value for probability (",i,"):")
     InpX = float(input())
     InputNum.append(InpX)
 
